@@ -3,9 +3,9 @@ int main()
 {
 	int x, y;
 	printf("Enter number = ");
-	scanf("%d", &x);
+	scanf_s("%d", &x);
 	printf("Enter number = ");
-	scanf("%d", &y);
+	scanf_s("%d", &y);
 	if (x < y)
 	{
 		for (int i = x; i <= y; i++)
